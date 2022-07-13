@@ -1,0 +1,34 @@
+.App {
+  background-color: rgb(212, 230, 246) !important;
+}
+body {
+  background-color: rgb(212, 230, 246) !important;
+}
+.Todo {
+  background: url(./images/mountain.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.taskCardInputArean {
+  margin-bottom: 10px;
+  width: 30%;
+  cursor: pointer;
+}
+.addTaskCardButton {
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 9999px;
+  font-size: 25px;
+  box-shadow: 3px 3px 8px 1px black;
+  cursor: pointer;
+  background-color: rgb(221, 194, 162);
+  transition: all .3s;
+}
+.addTaskCardButtonArea {
+  margin-left: 1%;
+  margin-top: 25px;
+}
+.addTaskCardButton:hover {
+  box-shadow: none;
+  transform: translate(3px ,3px);
+}
